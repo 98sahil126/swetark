@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Miner</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swetarkgroup.css">
+
+    <style>
+        @media (max-width: 1000px){
+    .swt-bs-carousel-track {
+    
+    min-height: 200px;
+}
+        }
+
+        @media (max-width: 480px){
+     .swt-bs-carousel-track {
+    
+    min-height: 300px;
+}
+.swt-bs-carousel {
+        overflow: visible;
+        
+    }
+    
+   .swt-bs-card{
+    min-height: 280px;
+ }
+        }
+  
+    </style>
+</head>
+<body>
+
+
+     <!-- Enhanced Navbar with navdropdowns -->
+     <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/swetark white logo.png" alt="Swetark Group" class="logo-light"></a>
+            <a href="index.html"><img src="images/swetark logo.png" alt="Swetark Group" class="logo-dark"></a>
+        </div>
+        
+        <div class="nav-links" id="navLinks">
+            <div class="nav-item">
+                <a href="aboutus.html" class="nav-link">About Us</a>
+            </div>
+                
+            <div class="nav-item navdropdown">
+                <a href="#" class="nav-link navdropdown-toggle">Swetark Group</a>
+                <div class="navdropdown-menu">
+                    <a href="swetarkglobalwealth(IFSC).html" class="navdropdown-item">Swetark Global Wealth (IFSC)</a>
+                    <a href="swetarkwealthmultipliers.html" class="navdropdown-item">Swetark Wealth Multipliers</a>
+                    <a href="swetarkconsultancyservices.html" class="navdropdown-item">Swetark Consultancy Services</a>
+                    <a href="swetarkbusinesshealthsystem.html" class="navdropdown-item">Swetark Business Health System</a>
+                    <a href="marketminer.html" class="navdropdown-item">Swetark Market Miner</a>
+                </div>
+            </div>
+            
+            <div class="nav-item navdropdown">
+                <a href="#" class="nav-link navdropdown-toggle">Our Offerings</a>
+                <div class="navdropdown-menu">
+                    <div class="nested-navdropdown">
+                        <a href="#" class="navdropdown-item nested-navdropdown-toggle">Domestic Offerings</a>
+                        <div class="nested-navdropdown-menu">
+                            <a href="Category-I-AIF – Angel-VC-Funds.html" class="navdropdown-item">Category I AIF – Angel & VC Funds</a>
+                            <a href="cat-ii-private-equity.html" class="navdropdown-item">Category II AIF – Private Equity</a>
+                            <a href="category-iii-aif-hedge-fund.html" class="navdropdown-item">Category III AIF – Hedge Fund</a>
+                        </div>
+                    </div>
+                    <div class="nested-navdropdown">
+                        <a href="#" class="navdropdown-item nested-navdropdown-toggle">International Offerings</a>
+                        <div class="nested-navdropdown-menu">
+                            <a href="Category-I-AIF – Angel-VC-Funds.html" class="navdropdown-item">Category I AIF – Angel & VC Funds</a>
+                            <a href="cat-ii-private-equity.html" class="navdropdown-item">Category II AIF – Private Equity</a>
+                            <a href="category-iii-aif-trend-immune-global-hedge-funds.html" class="navdropdown-item">Category III AIF – Hedge Fund</a>
+                            <a href="#" class="navdropdown-item">FIF - Family Investment Funds</a>
+                            <a href="#" class="navdropdown-item">PMS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-item">
+                <a href="index.html#team" class="nav-link">Team Swetark</a>
+            </div>
+            
+            <div class="nav-item">
+                <a href="#" class="nav-link">Insights</a>
+            </div>
+            
+            <div class="nav-item">
+                <a href="#" class="nav-link">Track Record</a>
+            </div>
+            
+            <div class="nav-item">
+                <a href="contactus.html" class="nav-link">Contact Us</a>
+            </div>
+        </div>
+        
+        <div class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="accent-shape top-right"></div>
+        <div class="container">
+            <div class="about-hero-content">
+                <h1 class="hero-title">Market Miner</h1>
+        
+            </div>
+        </div>
+    </section>
+
+   
+<!-- swetark section -->
+
+     <section class="swetark-section">
+    <div class="swetark-container">
+      <div class="swetark-content-left">
+        <div class="swetark-tagline">
+          <span>• Market Miner •</span>
+        </div>
+        <h1 class="swetark-section-heading">
+          <span>Our In-House,</span>
+          <span>24 hours Global</span>
+          <span> Research Platform.</span>
+        </h1>
+      </div>
+      <div class="swetark-content-right">
+        <div class="swetark-description">
+          <p>Built by Team Swetark, Market Miner is the engine that powers our Global Opportunities Hedge Fund. We gather and interpret financial data round the clock from around the world. Transforming raw information into clear, actionable insights.</p>
+         
+        </div>
+        <a href="#" class="swetark-btn">
+          Contact us
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- busuiness segment -->
+
+
+    <div class="swt-bs-container">
+            <div class="swt-business-segment">
+                <h2>What Makes Market Miner Special?</h2>
+            </div>
+
+            <div class="swt-bs-carousel">
+                <div class="swt-bs-carousel-track">
+                    <div class="swt-bs-carousel-slide" data-index="0">
+                        <div class="swt-bs-card" style="height: 200px;">
+                            <h2>Always On, Always Watching</h2>
+                            <div class="swt-bs-card-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <p>We monitor data from 60+ countries and 160 exchanges—day and night—so our fund never misses a market move.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="swt-bs-carousel-slide" data-index="1">
+                        <div class="swt-bs-card" style="height: 200px;">
+                            <h2>Clear, Focused Insights</h2>
+                            <div class="swt-bs-card-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <p> We cut through the noise to pinpoint the most important signals—no jargon, just the facts our fund needs.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="swt-bs-carousel-slide" data-index="2">
+                        <div class="swt-bs-card" style="height: 200px;">
+                            <h2>Turning Ups and Downs into Wins</h2>
+                            <div class="swt-bs-card-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <p>Whether markets rise or fall, we spot opportunities to grow and protect your investment.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="swt-bs-carousel-slide" data-index="3">
+                        <div class="swt-bs-card" style="height: 200px;">
+                            <h2>Powering a Trend-Immune Fund</h2>
+                            <div class="swt-bs-card-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <p>Every insight we uncover goes straight into our fund’s strategy, helping it stay ahead of sudden shifts and big trends.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="swt-bs-carousel-slide" data-index="4">
+                        <div class="swt-bs-card" style="height: 200px;">
+                            <h2>Built In-House, Built to Perform</h2>
+                            <div class="swt-bs-card-feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <p> Developed entirely by Team Swetark, Market Miner blends market know-how with smart tech to keep our fund agile and reliable.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swt-bs-carousel-navigation">
+                    <button class="swt-bs-carousel-button swt-bs-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <div class="swt-bs-carousel-indicators">
+                        <div class="swt-bs-indicator swt-bs-active" data-index="0"></div>
+                        <div class="swt-bs-indicator" data-index="1"></div>
+                        <div class="swt-bs-indicator" data-index="2"></div>
+                        <div class="swt-bs-indicator" data-index="3"></div>
+                        <div class="swt-bs-indicator" data-index="4"></div>
+                    </div>
+                    <button class="swt-bs-carousel-button swt-bs-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    
+
+
+    <!-- why chooswe us -->
+
+
+
+    <!-- why chooswe us -->
+
+<!-- HTML Section with new class names -->
+<section class="benefits-section">
+    <div class="benefits-container">
+        <div class="benefits-header">
+            <div class="header-wrapper">
+                <h2 class="header-title">Why It Matters to You ?</h2>
+            </div>
+            <div class="header-divider"></div>
+        </div>
+        
+        <div class="benefits-list">
+            <div class="benefits-timeline"></div>
+            
+            <div class="benefit-card">
+                <div class="benefit-indicator">
+                    <div class="benefit-circle"></div>
+                </div>
+                <div class="benefit-details" style="width: calc(100vw - 30%);">
+                    <div class="benefit-count">01</div>
+                    <h3>Peace of Mind</h3>
+                    <p>24 hours coverage means you never miss a market event.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-indicator">
+                    <div class="benefit-circle"></div>
+                </div>
+                <div class="benefit-details" style="width: calc(100vw - 30%);">
+                    <div class="benefit-count">02</div>
+                    <h3>Clarity</h3>
+                    <p>Receive only the insights that matter, explained in plain language.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-indicator">
+                    <div class="benefit-circle"></div>
+                </div>
+                <div class="benefit-details" style="width: calc(100vw - 30%);">
+                    <div class="benefit-count">03</div>
+                    <h3>Performance</h3>
+                    <p>Harness global opportunities and smart controls together.</p>
+                </div>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-indicator">
+                    <div class="benefit-circle"></div>
+                </div>
+                <div class="benefit-details">
+                    <h3>Ready to Experience Market Miner in action? Contact us to arrange a live walkthrough of our research centre.</h3>
+                </div>
+            </div>
+            
+        
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- fund house----- image-text section -->
+
+
+<section class="fund-section">
+
+
+    <div class="image-container">
+        <img src="images/swetarkgroupimages/marketminer1.png" alt="Swetark Global Wealth" class="custom-image">
+    </div>
+
+    <div class="content">
+        <h2></h2>
+        <p>“Imagine an investment vehicle built not just to survive—but to thrive—amid market turbulence. Through GIFT IFSC, Swetark introduces a game-changing solution: the <strong>Trend Immune Global Hedge Fund</strong>. This fund goes beyond traditional strategies, leveraging global arbitrage, multi-asset diversification, and advanced hedging techniques to convert volatility into opportunity. <br><br>
+
+And here’s where it gets powerful: with our expertise in <strong>derivative trading</strong>, Swetark doesn’t just hedge against downturns—we turn downward trends into profit-making scenarios. While SEBI regulations permit such derivative trading only for AIFs and retail traders in their own accounts, Swetark is fully authorized to conduct derivative strategies—not just in India, but across international markets.<br><br>
+
+From equities in New York to commodities in Singapore, your capital gains access to the world’s most lucrative opportunities, wrapped in a protective layer of strategic immunity. This isn’t just smart investing—it’s intelligent risk engineering for the modern portfolio.”</p>
+    </div>
+
+
+</section>
+
+
+
+<section class="fund-section" style="background-color: #f9f9f9;">
+
+    <div class="content">
+        <h2></h2>
+        <p>“Swetark is more than a research firm—it’s a gateway to <strong>global financial intelligence</strong>, all from our headquarters in GIFT City. <br><br>
+
+As a <strong>Multi-country Research Organisation</strong>, we track and analyze financial markets across the globe in real time. From the US to Europe, Asia to Africa—we’re always tuned in. Our ‘<strong>Never Sleeps</strong>‘ philosophy means we’re constantly scanning for opportunities, anytime, anywhere. Whether it’s a late-night market shift in New York or an early-morning policy update from Tokyo, Swetark ensures your investments are powered by continuous insights and timely decisions—because in today’s world, smart money doesn’t sleep.”<br><br>
+
+We warmly invite you to visit our state-of-the-art research center at GIFT City—experience firsthand how data, expertise, and technology come together to shape smarter investment decisions.
+        </p>
+    </div>
+
+    <div class="image-container">
+        <img src="images/swetarkgroupimages/marketminer2.png" alt="Swetark Global Wealth" class="custom-image">
+    </div>
+
+</section>
+
+
+
+<section class="fund-section">
+
+    <div class="image-container">
+        <img src="images/swetarkgroupimages/marketminer3.png" alt="Swetark Global Wealth" class="custom-image">
+    </div>
+
+    <div class="content">
+        <h2></h2>
+        <p>Swetark empowers investors to expand their horizons by tapping into a broader global investment landscape—all anchored from a single, strategic hub at GIFT City. <br>
+By leveraging deep research and insights across international markets, Swetark provides access to a dynamic, global portfolio. Let’s break down the key benefits:<br><br>
+
+<strong>More Countries</strong>: Swetark tracks and enables trading in over 60 plus countries and 160 plus exchange exchanges, significantly expanding the universe of investment opportunities beyond domestic boundaries.<br>
+<strong>More Companies</strong>: With access to more than 1 Lakh plus global securities, Swetark opens doors to a vast range of businesses across industries and regions, greatly enriching the pool of potential investments.<br>
+<strong>More Opportunities</strong>: Our global lens allows us to uncover unique, high-growth potential investments that may go unnoticed through a local-only approach.<br> 
+<strong>More Diversity</strong>: By investing across different geographies, sectors, and asset classes, Swetark helps reduce risk and boost portfolio resilience through intelligent diversification.<br>
+<strong>More Stability</strong>: A well-balanced exposure to multiple global markets mitigates volatility and helps protect your investments in times of economic uncertainty.<br><br>
+In short, Swetark is your gateway to smart, globally diversified investing—guided by research, driven by opportunity.
+        </p>
+    </div>
+
+
+</section>
+
+
+
+
+<section class="fund-section" style="background-color: #f9f9f9;">
+
+
+
+    <div class="content">
+        <h2></h2>
+        <p>Instead of fragmented investments, your money participates in a dynamic, globally diversified strategy—spanning equities, bonds, commodities, derivatives, forex, and private equity. <br><br>
+
+This approach delivers three powerful advantages:<br><br>
+
+<strong>Liquidity</strong>—exit positions quickly with no long-term lock-ins.<br>
+<strong>Efficiency</strong>—bulk trading reduces overall transaction costs.<br>
+<strong>Agility</strong>—we shift seamlessly between markets as new opportunities arise, whether it’s sunrise in Tokyo or closing bell in New York.<br><br>
+In a global economy that never sleeps, your fund shouldn’t either.
+With Swetark—<strong>money never sleeps, and neither do the opportunities.</strong>”
+        </p>
+    </div>
+    <div class="image-container">
+        <img src="images/swetarkgroupimages/marketminer4.png" alt="Swetark Global Wealth" class="custom-image">
+    </div>
+
+</section>
+
+
+
+<!-- footer -->
+
+<footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/swetark white logo.png" alt="" style="margin-bottom: 15px;">
+                <p>An Indian International Organization providing one stop solutions for businesses of all sizes.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-group">
+                <h3 class="footer-heading">Swetark Group</h3>
+                <ul class="footer-links">
+                    <li><a href="swetarkglobalwealth(IFSC).html">Swetark Global Wealth (IFSC)</a></li>
+                    <li><a href="swetarkwealthmultipliers.html">Swetark Wealth Multipliers</a></li>
+                    <li><a href="swetarkconsultancyservices.html">Swetark Consultancy Services</a></li>
+                    <li><a href="swetarkbusinesshealthsystem.html">Swetark Business Health System</a></li>
+                    <li><a href="marketminer.html">Swetark Market Miner</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-group">
+                <h3 class="footer-heading">Our Offerings</h3>
+                
+                <!-- Domestic Offerings Expandable Section -->
+                <div class="offerings-expandable-wrapper">
+                    <button class="offerings-header-btn" onclick="toggleOfferingsSection('domestic-offerings')">
+                        <span>Domestic Offerings</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="offerings-collapse-area" id="domestic-offerings">
+                        <ul>
+                            <li><a href="Category-I-AIF – Angel-VC-Funds.html">Category I AIF – Angel & VC Funds</a></li>
+                            <li><a href="cat-ii-private-equity.html">Category II AIF – Private Equity</a></li>
+                            <li><a href="category-iii-aif-hedge-fund.html">Category III AIF – Hedge Fund</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- International Offerings Expandable Section -->
+                <div class="offerings-expandable-wrapper">
+                    <button class="offerings-header-btn" onclick="toggleOfferingsSection('international-offerings')">
+                        <span>International Offerings</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="offerings-collapse-area" id="international-offerings">
+                        <ul>
+                            <li><a href="Category-I-AIF – Angel-VC-Funds.html">Category I AIF – Angel & VC Funds</a></li>
+                            <li><a href="cat-ii-private-equity.html">Category II AIF – Private Equity</a></li>
+                            <li><a href="category-iii-aif-trend-immune-global-hedge-funds.html">Category III AIF – Hedge Fund</a></li>
+                            <li><a href="#">FIF - Family Investment Funds</a></li>
+                            <li><a href="#">PMS</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 class="footer-heading" style="margin-top: 30px;">Contact Us</h3>
+                <div class="footer-contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@swetark.com"> info@swetark.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+916352730431"> +91 6352 730 431</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-group">
+                <h3 class="footer-heading">Our Locations</h3>
+                <div class="footer-contact-info">
+                    <div class="contact-item">
+                        <div class="address"><i class="fas fa-map-marker-alt"></i>
+                            <strong>International Office (GIFT CITY):</strong><br>
+                            Swetark Global Wealth (IFSC) Private Limited<br>
+                            Office No. 1624-25, Hiranandani Signature Building,<br>
+                            GIFT SEZ, GIFT City, Gandhinagar,<br>
+                            GJ IN - 382355
+                        </div>
+                    </div>
+                    <div class="contact-item" style="margin-top: 15px;">
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <strong>Domestic Office (India):</strong><br>
+                            Swetark Consultancy Services,<br>
+                            501, 5th Floor, Radhe Times Square,<br>
+                            Near Bhaijipura Cross Roads, Raysan,<br>
+                            Gandhinagar, GJ IN - 382007
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Swetark Group. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="swetarkgroup.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
